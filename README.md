@@ -29,13 +29,18 @@ Welcome to the Nmap Port Scanner project! This repository contains a Python-base
 
 ## Setup
 
+"import" statement used to import modules or libraries (bigger collections of code that can provide additional functuality to the script we are writing). We use this first to import nmap
+
 ![Line1](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/e6cedc39-b8cc-4fc6-9eba-dc66d1fd30a6)
 
+Create an instance of the "nmap.PortScanner" class. We then assign it the variable "nm". (We will be calling it later on in the script)
 
 ![Line3](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/08a9aee6-888b-4f27-802e-d62b57539844)
 
+We then create two more variables in these two lines. One being "target" the other being "options". "target" defines what our target IP is (the IP we are using is the one provided by nmap themselves to run practice tests on. Please remember, nmap is active recognizance and is illegal to run on someones IP without permission). "options" is defining how we will use nmap. We will be using the -sV switch (enables version detection, which allows users to gather information about a port's service) and the -sC switch (executes a scripted scan using the default category of scripts in the Nmap Scripting Engine)
 
 ![Line5](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/521ee24f-9e1c-44a7-b0cb-d47e0532170d)
+
 
 
 ![Line8](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/945e4033-22b3-4820-80ca-5f9162fc1e81)
