@@ -45,5 +45,6 @@ This line of code is calling the scan method on an instance of the nmap.PortScan
 
 ![Line8](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/945e4033-22b3-4820-80ca-5f9162fc1e81)
 
+Our nested loop structure. It is going to iterate through the results of the nmap scan and print information about each host. protocol, and port that was discovered.
 
 ![Line10](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/82ec2654-643c-4e32-ba13-906434a4ba7a)
