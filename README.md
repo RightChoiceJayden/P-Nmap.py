@@ -41,7 +41,7 @@ We then create two more variables in these two lines. One being "target" the oth
 
 ![Line5](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/521ee24f-9e1c-44a7-b0cb-d47e0532170d)
 
-
+This line of code is calling the scan method on an instance of the nmap.PortScanner class. It takes two arguments we priviously defined. "target" and "arguments"(which we made = to "options")
 
 ![Line8](https://github.com/RightChoiceJayden/P-Nmap.py/assets/157855848/945e4033-22b3-4820-80ca-5f9162fc1e81)
 
